@@ -3,24 +3,28 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/style_propio.css">
     <title>Mighty Ducks Hockey League</title>
   </head>
   <body>
     <header>
       <h1>Mighty Ducks Hockey League</h1>
-      <img src="./assets/Logo_Mighty_ducks_01.png" alt="Logo of the page">
-      <nav>
-        <a href="#">Home</a>
-        <a href="./pages/about.html">About MDHL</a>
-        <a href="./pages/contact.html">Contact</a>
-      </nav>
+      <div class="background_image">
+        <nav>
+          <a class="active" href="#">Home</a>
+          <a href="./pages/about.html">About MDHL</a>
+          <a href="./pages/contact.html">Contact</a>
+        </nav>
+      </div>
+      <h2>Upcoming Events</h2>
     </header>
     <main>
       <aside>
-        <img src="./assets/hockey_1.jpg" alt="image1">
+        <img src="./assets/images/Logo_Mighty_ducks_01.png" alt="Logo of the page">
       </aside>
       <section>
-        <h2>Upcoming Events</h2>
+        <h2 class="display_none">Home</h2>
         <article>
           <h3>August 4</h3>
           <p>MDSL Fundraiser</p>
@@ -33,6 +37,13 @@
           <h3>September 1</h3>
           <p>First Game of the Season (Check Game Schedule for details)</p>
         </article>
+      </section>
+      <section class="galery">
+          <h4>Imagen 1</h4>
+          <img src="./assets/images/hockey_2.jpg" alt="image2">
+          <img src="./assets/images/hockey_3.jpg" alt="image3">
+          <img src="./assets/images/hockey_4.jpg" alt="image4">
+          <img src="./assets/images/hockey_5.jpg" alt="image5">
       </section>
     </main>
     <footer>

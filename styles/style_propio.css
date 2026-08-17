@@ -1,0 +1,176 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 90%;
+    margin: 10px 50px;
+    font-family: cursive;
+    background-image:
+        linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.589)),
+        url(../assets/images/hockey_5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header {
+    width: 100%;
+    min-height: 10vh;
+}
+
+.background_image {
+    background-image: url(../assets/images/hockey_5.jpg);
+    background-size: contain;
+    height: 60vh;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-size: cover;
+    background-position: top;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    box-shadow: 5px 40px 17px black;
+}
+
+.background_image img {
+    width: 100%;
+    height: 300px;
+    object-fit: contain;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+nav {
+    position: relative;
+    display: inline-block;
+    left: 840px;
+    height: 30px;
+    bottom: 10px;
+}
+
+nav a {
+    background-color: rgb(34 152 30);
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    background-color: rgb(237 213 8);
+}
+
+.active {
+    background-color: rgb(237 213 8);
+}
+
+h1 {
+    position: relative;
+    left: 10px;
+    width: 65%;
+    font-size: 40px;
+    color: rgb(34 152 30);
+    text-shadow: 5px 3px 4px rgb(237 213 8);
+}
+
+h2 {
+    text-align: center;
+    background-color: rgb(237 213 8);
+    color: white;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    font-weight: bold;
+}
+
+h3 {
+    font-weight: bold;
+}
+
+h4 {
+    display: none;
+}
+
+.display_none {
+    display: none;
+}
+
+main {
+    min-height: 80vh;
+    position: relative
+}
+
+aside img:hover {
+    transform: rotate(360deg);
+}
+
+aside img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    box-shadow: 3px 5px 12px black;
+    margin-top: 10px;
+    border-radius: 10px;
+    transition: transform 1s ease;
+}
+
+section {
+    display: inline-block;
+    position: absolute;
+    width: 78%;
+}
+
+.galery {
+    display: inline-block;
+    width: 78%;
+    position: relative;
+    top: 200px;
+    height: 200px;
+}
+
+.galery img {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin: 10px;
+    box-shadow: 3px 5px 12px black;
+}
+
+.galery img:hover {
+    transform: scale3d(2.0, 2.0, 0.3);
+}
+
+article {
+    margin-top: 10px;
+
+}
+
+article p {
+    font-weight: bolder;
+}
+
+article p a {
+    color: rgb(34 152 30);
+    font-weight: bold;
+}
+
+article p a:hover {
+    color: rgb(237 213 8);
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+footer {
+    text-align: center;
+    min-height: 10vh;
+    position: relative;
+}
+
+footer p {
+    font-size: 20px;
+    position: relative;
+    top: 10px;
+}
